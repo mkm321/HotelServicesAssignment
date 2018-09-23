@@ -1,0 +1,37 @@
+﻿[
+  {
+    "Id": 1,
+    "Rating": 4,
+    "Address": "Weikfield IT Park, Pune Nagar Road, Pune, Maharashtra 411014",
+    "Policy": "12 Noon- 12 Noon checkout only",
+    "Amenities": [ "Gym", "Indoor Pool", "Business Centre", "Restaurant", "Room service", "Child friendly", "Airport shuttle", "spa" ]
+  },
+  {
+    "id": 2,
+    "Rating": 5,
+    "Address": "Weikfield IT City Infopark Survey No 30/3, Ramwadi, Viman Nagar, Pune, Maharashtra 411014",
+    "Policy": "12 Noon - 12 Noon Checkout",
+    "Amenities": [ "Free breakfast", "Free parking", "Air conditioned", "Laundry Service", "Business Centre", "Room service" ]
+  },
+  {
+    "id": 3,
+    "Rating": 4,
+    "Address": "Senapati Bapat Rd, Laxmi Society, Model Colony, Shivajinagar, Pune, Maharashtra 411053",
+    "Policy": "12 Noon - 12 Noon Checkout",
+    "Amenities": [ "Free parking", "Pool", "Air-conditioned", "Laundry service", "Business centre", "Room service" ]
+  },
+  {
+    "id": 4,
+    "Rating": 3,
+    "Address": " NH-1, Phagwara-Jalandhar Highway, Phagwara, Punjab 144401",
+    "Policy": "12 Noon - 12 Noon Checkout",
+    "Amenities": [ "Outdoor pool", "Child friendly", "Restaurant", "Laundry service", "Business centre", "Room service" ]
+  },
+  {
+    "id": 5,
+    "Rating": 2,
+    "Address": " Plot No.4, Building Sai Drishti, Before Smokin Joes, Airport Road, Viman Nagar, Pune, Maharashtra 411014",
+    "Policy": "12 Noon - 12 Noon Checkout",
+    "Amenities": [ "Air-conditioned", "Laundry service", "Room service" ]
+  }
+]

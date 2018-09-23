@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>TAVISCA</h1>
+    <h3>Travel Technology Specialist</h3>
+</div>
+
+@using (Html
+         .BeginForm("GetAllHotels", "Hotel", FormMethod.Post))
+{
+    <input type="submit" value="Get Hotels" />
+}

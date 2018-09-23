@@ -1,0 +1,34 @@
+﻿@model List<HotelApiService.Models.Room>
+@{
+    ViewData["Title"] = "ShowRooms";
+}
+
+<h2>ShowRooms</h2>
+<br />
+<br />
+<br />
+<hr />
+<table class="table table-responsive table-striped table-bordered">
+    <thead>
+        <tr>
+            <th style="background-color: yellow; color: blue">Number of Beds</th>
+            <th style="background-color: yellow; color: blue">Price</th>
+            <th style="background-color: yellow; color: blue">Room Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.Beds</td>
+                <td>@i.Price</td>
+                <td>@i.Type</td>
+                @using (Html.BeginForm("BookHotel", "Room", FormMethod.Post))
+                {
+                    <td><input class="btn btn-primary" type="submit" name="ShowRooms" value="@i.Id,@i.Price,@i.Type,@i.HotelId,@ViewBag.name" /></td>
+
+                }
+            </tr>
+        }
+    </tbody>
+</table>

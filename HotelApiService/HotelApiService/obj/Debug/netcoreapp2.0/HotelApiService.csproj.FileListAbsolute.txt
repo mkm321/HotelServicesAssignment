@@ -1,0 +1,11 @@
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\bin\Debug\netcoreapp2.0\HotelApiService.deps.json
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\bin\Debug\netcoreapp2.0\HotelApiService.runtimeconfig.json
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\bin\Debug\netcoreapp2.0\HotelApiService.runtimeconfig.dev.json
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\bin\Debug\netcoreapp2.0\HotelApiService.dll
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\obj\Debug\netcoreapp2.0\HotelApiService.csprojAssemblyReference.cache
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\obj\Debug\netcoreapp2.0\HotelApiService.csproj.CoreCompileInputs.cache
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\obj\Debug\netcoreapp2.0\HotelApiService.AssemblyInfoInputs.cache
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\obj\Debug\netcoreapp2.0\HotelApiService.AssemblyInfo.cs
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\bin\Debug\netcoreapp2.0\HotelApiService.pdb
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\obj\Debug\netcoreapp2.0\HotelApiService.dll
+c:\users\mmehndiratta\source\repos\HotelApiService\HotelApiService\obj\Debug\netcoreapp2.0\HotelApiService.pdb
