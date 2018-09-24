@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,5 +12,6 @@ namespace HotelApiService.Models
         public string Address { get; set; }
         public string Policy { get; set; }
         public string[] Amenities { get; set; }
+        public string image { get; set; }
     }
 }
