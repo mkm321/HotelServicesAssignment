@@ -1,4 +1,4 @@
-﻿@model List<HotelApiService.Models.Hotel>
+@model List<HotelApiService.Models.Hotel>
     @{
     ViewData["Title"] = "GetAllHotels";
     }
@@ -25,6 +25,7 @@
             @foreach (var i in Model)
         {
             <tr>
+                <td><img src="@i.image" /></td>
                 <td>@i.Name</td>
                 <td>@i.Type</td>
                 <td>@i.StartingPrice</td>
@@ -32,11 +33,15 @@
                 <td>@i.Rating</td>
                 <td>@i.Address</td>
                 <td>@i.Policy</td>
-                <td>@i.Amenities</td>
+                <td>
+                    @i.Amenities[0]
+                    @i.Amenities[1]
+                    @i.Amenities[2]
+                </td>
                 @using (Html
         .BeginForm("ShowRooms", "Room", FormMethod.Post))
             {
-                <td><input class="btn btn-primary" type="submit" name="Book" value="@i.Id,@i.Name" /></td>
+                <td><input class="btn btn-primary" type="submit" name="Books" value="Show Rooms" /><input class="btn btn-primary" type="hidden" name="Book" value="@i.Id,@i.Name"/></td>
             }
             </tr>
         }
