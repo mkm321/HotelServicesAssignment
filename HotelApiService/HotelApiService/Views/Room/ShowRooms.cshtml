@@ -1,4 +1,4 @@
-﻿@model List<HotelApiService.Models.Room>
+@model List<HotelApiService.Models.Room>
 @{
     ViewData["Title"] = "ShowRooms";
 }
@@ -25,7 +25,7 @@
                 <td>@i.Type</td>
                 @using (Html.BeginForm("BookHotel", "Room", FormMethod.Post))
                 {
-                    <td><input class="btn btn-primary" type="submit" name="ShowRooms" value="@i.Id,@i.Price,@i.Type,@i.HotelId,@ViewBag.name" /></td>
+                    <td><input class="btn btn-primary" type="submit" name="ShowRoom" value="Book Room" /><input class="btn btn-primary" type="hidden" name="ShowRooms" value="@i.Id,@i.Price,@i.Type,@i.HotelId,@ViewBag.name" /></td>
 
                 }
             </tr>
